@@ -1,0 +1,75 @@
+@media screen and (min-width: 576px) {
+    .logo {
+        margin: 0;
+    }
+    .fp_block__elem {
+        min-width: 360px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-contact-lists {
+        display: flex;
+        justify-content: left;
+    }
+    .header-top-text {
+        justify-content: flex-end;
+    }
+    .menu__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger {
+        display: none;
+    }
+    .header-main-text {
+        font-size: 14px;
+    }
+    .header__title {
+        font-size: 60px;
+    }
+    .title__fp {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .menu__icons {
+        justify-content: flex-end;
+        padding: 0; 
+    }
+    .all_collection {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header__content {
+        margin-right: 49px;
+    }
+    .fp_block__elem {
+        min-width: 360px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .coll__title {
+        color: #2a2a2a;
+        font-family: "Dancing Script";
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin-top: 210px;
+    }
+    .coll__text {
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: 300;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin-top: 98px;
+        margin-bottom: 70px;
+    }
+}
