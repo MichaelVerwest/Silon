@@ -715,15 +715,15 @@ a {
     justify-content: center;
     align-items: center;
 }
-.main_block_light a .fa-instagram::before {
+.main_block_light a .fa-instagram {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #9a9a9a;
  }
 .main_block_light:hover   {
-    .main_block_light a .fa-instagram::before, .main_block_light a .fa-instagram  {
-        color: #ffffff;
+    a .fa-instagram {
+        color: #ffffff!important;
         display: flex;
         justify-content: center;
         align-items: center;
