@@ -100,22 +100,24 @@ a {
     padding-left: 30px;
 }
 .logo {
-    padding: 0;
-    margin-left: 12%;
-    width: 88px;
-    height: 26px;
+    margin-left: 15px;
 }
-.logo img {
-    max-height: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+.logo h2 {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.logo em {
+    color: #ff5353;
 }
 .menu__list {
     display: none;
 }
 .menu__icons {
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 2rem;
 }
 .menu__main {
@@ -389,7 +391,7 @@ a {
 .elem__link-1 {
     margin-right: 15px;
 }
-.elem__link-1, .elem__link-3 {
+.elem__item a {
     width: 50px;
     height: 50px;
     box-shadow: 0 3px 9px 1px rgba(15, 33, 97, 0.05);
@@ -398,14 +400,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
 }
-.elem__link-2 {
+.elem__item a:hover {
     width: 50px;
     height: 50px;
     box-shadow: 0 3px 9px 1px rgba(15, 33, 97, 0.05);
     border-radius: 25px;
     background-color: #ff5353;
-    color: white;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
