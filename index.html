@@ -53,10 +53,28 @@
     <header class="menu__main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-1 col-md-1 col-sm-6 px-0 d-flex align-items-center">
+                <div class="col-lg-1 col-md-1 col-sm-12 px-0 d-flex align-items-center justify-content-between">
                     <div class="logo">
-                        <h2>Silon<em>.</em></h2>
+                        <h3>Silon<em>.</em></h3>
                     </div>
+                    <nav id="mobile__nav_bl" class="mobile__nav">
+                        <div id="burger" class="burger" onclick="openMenu()">
+                            <span id="sp1"></span>
+                            <span id="sp2"></span>
+                            <span id="sp3"></span>
+                        </div>
+                        <div id="mobile_wr" class="mobile__wrapper">
+                            <ul id="mobile_navigation" class="mobile_navigation_ul">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Brands</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
                 </div>
                 <div class="col-lg-9 col-md-11 px-0 d-flex justify-content-center">
                     <div class="menu__list">
@@ -93,23 +111,7 @@
                 </div>
             </div>
         </div>
-        <nav id="mobile__nav_bl" class="mobile__nav">
-            <div id="burger" class="burger" onclick="openMenu()">
-                <span id="sp1"></span>
-                <span id="sp2"></span>
-                <span id="sp3"></span>
-            </div>
-            <div id="mobile_wr" class="mobile__wrapper">
-                <ul id="mobile_navigation" class="mobile_navigation_ul">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Brands</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </div>
-        </nav>
+        
     </header>
     <header class="header__main">
         <div class="container">
@@ -128,7 +130,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 px-0">
-                    <p class="title__fp">Featured product</p>
+                    <h2 class="title__fp">Featured product</h2>
                 </div>
                 <div class="container">
                     <div class="row">

@@ -5,6 +5,12 @@
     .fp_block__elem {
         min-width: 360px;
     }
+    .footer__title, .footer__title_inner {
+        text-align: left;
+    }
+    .social__menu {
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -29,8 +35,17 @@
     .header__title {
         font-size: 60px;
     }
-    .title__fp {
+    .title__fp, .title__mp , .title__tp, .title__sj, .title_f_us  {
         font-size: 36px;
+    }
+    .logo h3 {
+        font-size: 34px;
+    }
+    .header__title {
+        font-size: 45px;
+    }
+    .coll__text {
+        font-size: 42px;
     }
 }
 
@@ -81,4 +96,5 @@
     .footer__text {
         margin-top: 44px;
     }
+    
 }

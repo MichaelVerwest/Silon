@@ -102,10 +102,10 @@ a {
 .logo {
     margin-left: 15px;
 }
-.logo h2 {
+.logo h3 {
     color: #000000;
     font-family: Roboto;
-    font-size: 34px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 27px;
 }
@@ -135,8 +135,8 @@ a {
     overflow: hidden;
     cursor: pointer;
     position: absolute;
-    top: 74px;
-    right: 7%;
+    top: -9px;
+    right: 15px;
     z-index: 1000;
 }
 .burger.active  {
@@ -293,7 +293,7 @@ a {
 .header__title {
     color: #000000;
     font-family: Roboto;
-    font-size: 45px;
+    font-size: 1.5rem;
     font-weight: 500;
     margin: 30px 0 80px 0;
 }
@@ -466,7 +466,7 @@ a {
 .title__mp {
     color: #000000;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -594,7 +594,7 @@ a {
 .title__tp {
     color: #000000;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -610,7 +610,7 @@ a {
 .title__sj {
     color: #000000;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -700,7 +700,7 @@ a {
 .title_f_us {
     color: #000000;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -773,6 +773,7 @@ a {
     font-weight: 700;
     line-height: 45px;
     text-transform: uppercase;
+    text-align: center;
 }
 .footer__text {
     color: #888888;
@@ -864,6 +865,7 @@ a {
     font-weight: 700;
     line-height: 45px;
     text-transform: uppercase;
+    text-align: center;
 }
 .fb__block, .p__block, .inst__block, .tw__block  {
     width: 30px;
@@ -885,6 +887,7 @@ a {
 }
 .social__menu {
     display: flex;
+    justify-content: center;
 }
 
 
